@@ -608,3 +608,17 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2021-01-15 18:21:04.520  INFO 10024 --- [RMI TCP Connection(5)-192.168.199.157] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2021-01-15 18:21:04.520  INFO 10024 --- [RMI TCP Connection(5)-192.168.199.157] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2021-01-15 18:21:04.556  INFO 10024 --- [RMI TCP Connection(5)-192.168.199.157] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2021-01-15 18:24:58.909  INFO 10024 --- [Thread-58] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@22096f75: startup date [Fri Jan 15 18:20:38 CST 2021]; root of context hierarchy
+2021-01-15 18:24:58.913  INFO 10024 --- [Thread-58] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2021-01-15 18:24:58.921  INFO 10024 --- [Thread-58] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2021-01-15 18:24:58.922  INFO 10024 --- [Thread-58] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2021-01-15 18:24:58.923  INFO 10024 --- [Thread-58] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-01-15 18:24:58.946  INFO 10024 --- [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-15 18:25:00.091  INFO 10024 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-15 18:25:00.102  INFO 10024 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-15 18:25:30.908  INFO 10028 --- [restartedMain] com.qingchi.server.ServerWebApplication  : Starting ServerWebApplication on LAPTOP-2BAA9QQK with PID 10028 (D:\my_project\qingchi-web\target\classes started by 28637 in D:\my_project\qingchi-web)
+2021-01-15 18:25:30.911  INFO 10028 --- [restartedMain] com.qingchi.server.ServerWebApplication  : The following profiles are active: dev
+2021-01-15 18:25:31.102  INFO 10028 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5590ce7b: startup date [Fri Jan 15 18:25:31 CST 2021]; root of context hierarchy
+2021-01-15 18:25:34.007  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-15 18:25:34.599  WARN 10028 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qingchi.server]' package. Please check your configuration.
+2021-01-15 18:25:34.905  INFO 10028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
